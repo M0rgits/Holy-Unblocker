@@ -22,6 +22,7 @@ const pages = {
     'i': 'pages/nav/icons.html',
     't': 'pages/nav/terms.html',
     /* Games */
+    'li': 'pages/nav/links.html',
     'g': 'pages/nav/gtools.html',
     'h': 'pages/nav/games5.html',
     'el': 'pages/nav/emulators.html',

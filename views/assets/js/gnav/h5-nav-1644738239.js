@@ -5,6 +5,11 @@
 /* ----------------------------------------------- */
 
 var h5gms = [
+    { name: "Official Minecraft", path: "minecraft/", img: "mc.png", description: "Now With Single-Player" },
+    { name: "Krunker-io", path: "krunker/", img: "krunker.png", description: "Krunker.io is a fast-paced pixelated first-person shooter. In this browser game, players drop into a pixelated world and fight against other players from around the world." },
+    { name: "Shell Shockers", path: "shell-shockers/", img: "shellshockers.png", description: "Shell Shockers (Shellshock.io) is a multiplayer .io FPS game featuring eggs armed with guns. You control one of these weapon-wielding eggs in one of four online game modes where the aim is to shatter your opponents with bullets and bombs." },
+    { name: "Bonk.Io", path: "bonk/", img: "bonk.png", description: "Bonk.io is an online physics .io game where you compete with up to eight players. The goal is to defeat your opponents by pushing them into deadly objects." },
+    { name: "Bullet Force", path: "bullet-force/", img: "bulletforce.png", description: "Bullet Force is an amazing multiplayer FPS game with great 3D graphics. Create a room or join one and start shooting." },
     { name: "A Dark Room", path: "adarkroom/", img: "darkroom.png", description: "A player lights a fire in a dark room. Fun game :D" },
     { name: "Minecraft: Bedrock Edition", custom: "mcnow", img: "mcnow.jpg", description: "A trial version of the real Minecraft: Bedrock Edition. Pure credits to now.gg for this.", credits: "nowgg" },
     { name: "Fireboy and Watergirl", path: "firewater/", img: "firewater.png", description: "Fireboy and Watergirl is the first cooperative platformer game in the Fireboy and Watergirl series." },

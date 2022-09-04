@@ -58,7 +58,7 @@ tsParticles.load("particles-js", {
         },
         "move": {
             "enable": true,
-            "speed": 2,
+            "speed": 1,
             "direction": "none",
             "random": false,
             "straight": false,
@@ -75,7 +75,7 @@ tsParticles.load("particles-js", {
         "detect_on": "canvas",
         "events": {
             "onhover": {
-                "enable": false,
+                "enable": true,
                 "mode": "repulse"
             },
             "onclick": {

@@ -13,6 +13,13 @@
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/tsparticles@1.39.2/tsparticles.min.js" integrity="sha256-FCz5ToEA27payrGYaVGRidiIA+68Z31TBXFzcIT1/gU=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  
+    <script> 
+    $(function(){
+      $("#header").load("pages/misc/deobf/header.html"); 
+    });
+    </script> 
 </head>
 
 <body>
@@ -22,38 +29,29 @@
     <div id="mainbody" class="fullwidth">
         <div class="ad" id="ad-left"></div>
         <div class="ad" id="ad-right"></div>
-        <!-- IMPORTANT-HUCOOKINGINSERT-DONOTDELETE -->
         <div class="box box-medium text-center textm">
-            <h1 class="bigtitle">Yout&#173;ube Pr&#173;oxy</h1>
-            <p class="responsive-fix">
-                Choose which pr&#173;oxy you would like to use. Below is some information.
-                <br>Yo&#173;uTube n&#173;ow ha&#173;s enha&#173;nced sup&#173;port wi&#173;th onsi&#173;te na&#173;vigat&#173;ion w/ Co&#173;rro&#173;sion! Sim&#173;ply u&#173;se th&#173;e but&#173;tons belo&#173;w to a&#173;cce&#173;ss YouT&#173;ube
-                vi&#173;a Cor&#173;rosi&#173;on.
-            </p>
-            <h3>Having Issues?</h3>
-            <p class="font3 accented">
-                Read the <a href="/?faq">FAQ page</a> for more information.
-                <br>Sometimes the pro&#173;xie&#173;s are under high load so things may be s&#173;low, sorry. In that case simply wait for the pa&#173;ge to load.
-            </p>
+            <h1 class="bigtitle">Li&#173;nks&#173; to &#173; Un&#173;blo&#173;c&#173;ke&#173;d W&#173;ebs&#173;ite&#173;s</h1>
+            <p class="responsive-fix">Cho&#173;ose where you woul&#173;d like to go. Bel&#173;ow is some inform&#173;ation.</p>
+            <div class="font3">
+                <h3>Information:</h3>
+                <p class="accented">
+                    So&#173;me S&#173;ites&#173; Wi&#173;ll &#173;Ta&#173;ke A &#173;Lit&#173;t&#173;le &#173; Ti&#173;me &#173;To L&#173;oa&#173;d<br>
+                    
+            </div>
             <div class="responsive-fix">
-                <a class="fancybutton glowbutton" href="#" onclick="goProx.ultraviolet('https://youtube.com');">Classic</a>
-                <a class="fancybutton glowbutton" href="#" onclick="goProx.ultraviolet('https://youtube.com', true);">Stealth</a>
+                <a class="fancybutton glowbutton" id="ytlnk">Yo&#173;ut&#173;ube</a>
+                <a class="fancybutton glowbutton" id="dclnk">Di&#173;sco&#173;rd&#173;</a>
+                <a class="fancybutton glowbutton" id="rdlnk">Re&#173;d&#173;di&#173;t</a>
+                <a class="fancybutton glowbutton" id="ntlnk">Ne&#173;tf&#173;lix</a>
             </div>
         </div>
     </div>
     <div id="footer" class="fullwidth"></div>
     <!-- IMPORTANT-HUCOOKINGINSERT-DONOTDELETE -->
-    <script src="uv.bundle.js"></script>
-    <script src="uv.config.js"></script>
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.navigator.serviceWorker.register('/sw.js', {
-                scope: __uv$config.prefix,
-            });
-        };
-    </script>
     <script src="assets/js/common.js"></script>
-    <script src="assets/js/header.js"></script>
+ <script src="views/Ultraviolet-Node/static/uv/uv.bundle.js"></script>
+    <script src="views/Ultraviolet-Node/static/uv/uv.config.js"></script>
+    <script src="views/Ultraviolet-Node/static/index.js"></script>
     <script src="assets/js/csel.js"></script>
     <script src="assets/js/footer.js"></script>
     <script defer="defer" src="assets/js/particlesjs/particles.js"></script>

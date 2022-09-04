@@ -3,7 +3,6 @@
 /* MIT license: http://opensource.org/licenses/MIT
 /* prSet script
 /* ----------------------------------------------- */
-
 function prSet(type) {
     var prUrl = document.getElementById("pr-url"),
     prGo1 = document.getElementById("pr-go1"),
@@ -21,3 +20,8 @@ function prSet(type) {
         if (prUrl.value) goProx[type](prUrl.value, true);
     }, false);
 }
+   prUrl.addEventListener("click", function() {
+        if (prUrl.value) goProx[type](prUrl.value);
+    }, false);
+
+  
