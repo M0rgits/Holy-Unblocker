@@ -5,7 +5,8 @@
 /* ----------------------------------------------- */
 
 var h5gms = [
-    { name: "Official Minecraft", path: "minecraft/", img: "mc.png", description: "Now With Single-Player" },
+  { name: "Funny Shooter 2", path: "funny/", img: "funny.png", description: "Funny Shooter 2 is a fun FPS game where you fight hordes of absurd enemies! Use various weapons to slay these bizarre beings and upgrade your weapons arsenal as you progress." },
+  { name: "Official Minecraft", path: "minecraft/", img: "mc.png", description: "Now With Single-Player" },
     { name: "Krunker-io", path: "krunker/", img: "krunker.png", description: "Krunker.io is a fast-paced pixelated first-person shooter. In this browser game, players drop into a pixelated world and fight against other players from around the world." },
     { name: "Shell Shockers", path: "shell-shockers/", img: "shellshockers.png", description: "Shell Shockers (Shellshock.io) is a multiplayer .io FPS game featuring eggs armed with guns. You control one of these weapon-wielding eggs in one of four online game modes where the aim is to shatter your opponents with bullets and bombs." },
     { name: "Bonk.Io", path: "bonk/", img: "bonk.png", description: "Bonk.io is an online physics .io game where you compete with up to eight players. The goal is to defeat your opponents by pushing them into deadly objects." },
